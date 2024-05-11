@@ -2,7 +2,8 @@ public class PersonApp {
     // main class
     public static void main(String[] args) {
         // cara membuat object
-        var person1 = new Person();
+        var person1 = new Person("Ibnu", "Subang");
+        var person2 = new Person("Ibnu");
 
         // berikut adalah pemanggil field dalam class
         person1.nama = "Ibnu Rusdianto";
